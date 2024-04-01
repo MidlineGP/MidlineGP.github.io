@@ -24,23 +24,36 @@ body {
     flex-wrap: wrap;
 }
 .card {
-    width: 400px;
-    height: 700px;
+    width: 350px;
+    height: 600px;
     border: 2px solid black;
-    border-radius: 10px;
-    margin: 50px;
+    border-radius: 20px;
+    margin: 30px;
     text-align: center;
-    padding: 10px;
-    
+    padding-top: 0px;
+    box-shadow: 0px 0px 30px white;
+    background-color: white;
 }
-.card p,h1,img {
+.card p,h1 {
     font-family: 'IranSans';
     padding: 20px;
 }
+h1,p {
+    margin-bottom: 0 !important;
+}
 img {
-    margin-top: 20px;
+    border-radius: 18px 18px 0px 0px;
 }
 a {
     text-decoration: none;
     color: black;
 }
+.fullscreen-bg {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+}
+
